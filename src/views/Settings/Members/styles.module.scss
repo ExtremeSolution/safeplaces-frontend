@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  flex: 1;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  flex: 1;
+}
+
+.addMemberContainer {
+  width: 100%;
+}
+
+.membersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #E9EAF0;
+  padding: 16px 16px 16px 0;
+}
+
+.textInput {
+  height: 48px !important;
+  border-right: none !important;
+  border-radius: 8px 0px 0px 8px !important;
+}
+
+.comboControl {
+  display: flex;
+
+  input {
+    border: 2px solid #e5e7fa;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
+    height: 48px;
+    background-color: #fff;
+  }
+
+  select {
+    border: 2px solid #e5e7fa !important;
+    box-sizing: border-box;
+    border-radius: 0 8px 8px 0;
+  }
+}

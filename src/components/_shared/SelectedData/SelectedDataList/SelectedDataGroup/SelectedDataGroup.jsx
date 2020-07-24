@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { FixedSizeList as List } from 'react-window';
 
 import SelectedDataItem from 'components/_shared/SelectedData/SelectedDataList/SelectedDataItem';
-import pointsSelectors from 'ducks/points/selectors';
 import { useSelector } from 'react-redux';
 import applicationSelectors from 'ducks/application/selectors';
 
