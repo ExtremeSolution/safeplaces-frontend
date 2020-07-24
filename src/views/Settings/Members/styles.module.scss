@@ -29,6 +29,29 @@
 
 .addMemberContainer {
   width: 100%;
+
+  .comboControl {
+    display: flex;
+
+    input {
+      border: 2px solid #e5e7fa;
+      box-sizing: border-box;
+      border-radius: 8px 0px 0px 8px;
+      height: 48px;
+      background-color: #fff;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    select {
+      border: 2px solid #e5e7fa;
+      border-left: none;
+      border-radius: 0 8px 8px 0;
+    }
+  }
 }
 
 .membersContainer {
@@ -45,30 +68,6 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  border-bottom: 1px solid #E9EAF0;
+  border-bottom: 1px solid #e9eaf0;
   padding: 16px 16px 16px 0;
-}
-
-.textInput {
-  height: 48px !important;
-  border-right: none !important;
-  border-radius: 8px 0px 0px 8px !important;
-}
-
-.comboControl {
-  display: flex;
-
-  input {
-    border: 2px solid #e5e7fa;
-    box-sizing: border-box;
-    border-radius: 8px 0px 0px 8px;
-    height: 48px;
-    background-color: #fff;
-  }
-
-  select {
-    border: 2px solid #e5e7fa !important;
-    box-sizing: border-box;
-    border-radius: 0 8px 8px 0;
-  }
 }
